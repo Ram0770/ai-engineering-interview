@@ -1,0 +1,157 @@
+[
+  {
+    "id": "CASE-01",
+    "question": "Can I add more RAM, and how much?",
+    "expected_tools": ["get_memory_topology"],
+    "required_facts": ["16 GB", "1 of 2", "64 GB", "32 GB"],
+    "domain": "memory_upgrade"
+  },
+  {
+    "id": "CASE-02",
+    "question": "How much RAM do I have installed?",
+    "expected_tools": ["get_memory_summary", "get_memory_topology"],
+    "required_facts": ["16 GB"],
+    "domain": "memory_capacity"
+  },
+  {
+    "id": "CASE-03",
+    "question": "Is my SSD NVMe?",
+    "expected_tools": ["get_storage_devices"],
+    "required_facts": ["NVMe", "nvme0n1"],
+    "domain": "storage_type"
+  },
+  {
+    "id": "CASE-04",
+    "question": "Do I have a hard disk drive (HDD) or is everything solid state?",
+    "expected_tools": ["get_storage_devices"],
+    "required_facts": ["NVMe SSD", "HDD"],
+    "domain": "storage_media"
+  },
+  {
+    "id": "CASE-05",
+    "question": "What processor model is in this machine?",
+    "expected_tools": ["get_cpu_info"],
+    "required_facts": ["i7-12700H", "Intel"],
+    "domain": "cpu_model"
+  },
+  {
+    "id": "CASE-06",
+    "question": "How many CPU cores and threads are available?",
+    "expected_tools": ["get_cpu_info"],
+    "required_facts": ["14", "20"],
+    "domain": "cpu_cores"
+  },
+  {
+    "id": "CASE-07",
+    "question": "What dedicated graphics card does this laptop have?",
+    "expected_tools": ["get_gpu_info"],
+    "required_facts": ["NVIDIA", "RTX 3060"],
+    "domain": "gpu_spec"
+  },
+  {
+    "id": "CASE-08",
+    "question": "What is my current battery health and charge percentage?",
+    "expected_tools": ["get_battery_info"],
+    "required_facts": ["battery"],
+    "domain": "battery_status"
+  },
+  {
+    "id": "CASE-09",
+    "question": "What Linux distribution and kernel version is running?",
+    "expected_tools": ["get_os_kernel_info"],
+    "required_facts": ["Linux"],
+    "domain": "os_kernel"
+  },
+  {
+    "id": "CASE-10",
+    "question": "Who manufactured the motherboard and what BIOS version is installed?",
+    "expected_tools": ["get_motherboard_bios_info"],
+    "required_facts": ["BIOS"],
+    "domain": "motherboard_bios"
+  },
+  {
+    "id": "CASE-11",
+    "question": "How much free RAM is currently available for applications?",
+    "expected_tools": ["get_memory_summary"],
+    "required_facts": ["free", "GB"],
+    "domain": "memory_free"
+  },
+  {
+    "id": "CASE-12",
+    "question": "How many total physical RAM slots exist on the motherboard?",
+    "expected_tools": ["get_memory_topology"],
+    "required_facts": ["2"],
+    "domain": "memory_slots"
+  },
+  {
+    "id": "CASE-13",
+    "question": "How many empty memory slots do I have left?",
+    "expected_tools": ["get_memory_topology"],
+    "required_facts": ["1"],
+    "domain": "memory_empty_slots"
+  },
+  {
+    "id": "CASE-14",
+    "question": "What is the speed and type of the installed RAM?",
+    "expected_tools": ["get_memory_topology"],
+    "required_facts": ["DDR4", "3200"],
+    "domain": "memory_speed"
+  },
+  {
+    "id": "CASE-15",
+    "question": "What is the total capacity of my primary disk drive?",
+    "expected_tools": ["get_storage_devices"],
+    "required_facts": ["512", "GB"],
+    "domain": "storage_capacity"
+  },
+  {
+    "id": "CASE-16",
+    "question": "Does my CPU support hardware virtualization (VT-x or AMD-V)?",
+    "expected_tools": ["get_cpu_info"],
+    "required_facts": ["vmx", "VT-x"],
+    "domain": "cpu_virtualization"
+  },
+  {
+    "id": "CASE-17",
+    "question": "Is my RAM soldered onto the board?",
+    "expected_tools": ["get_memory_topology"],
+    "required_facts": ["SODIMM"],
+    "domain": "memory_soldered"
+  },
+  {
+    "id": "CASE-18",
+    "question": "What is the partition layout and mount point of my root filesystem?",
+    "expected_tools": ["get_storage_devices"],
+    "required_facts": ["/"],
+    "domain": "storage_mountpoint"
+  },
+  {
+    "id": "CASE-19",
+    "question": "How much swap space is configured?",
+    "expected_tools": ["get_memory_summary"],
+    "required_facts": ["Swap"],
+    "domain": "memory_swap"
+  },
+  {
+    "id": "CASE-20",
+    "question": "How long has the machine been powered on without rebooting?",
+    "expected_tools": ["get_os_kernel_info"],
+    "required_facts": ["uptime"],
+    "domain": "os_uptime"
+  },
+  {
+    "id": "CASE-21",
+    "question": "What is the maximum CPU frequency supported?",
+    "expected_tools": ["get_cpu_info"],
+    "required_facts": ["4700", "MHz"],
+    "domain": "cpu_frequency"
+  },
+  {
+    "id": "CASE-22",
+    "question": "Is there an integrated Intel or AMD GPU alongside the dedicated card?",
+    "expected_tools": ["get_gpu_info"],
+    "required_facts": ["Intel"],
+    "domain": "gpu_integrated"
+  }
+]
+

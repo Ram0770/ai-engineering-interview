@@ -1,0 +1,58 @@
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4.0 present.
+
+Handle 0x002B, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 64 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x002C, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x002B
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: Controller0-ChannelA
+	Bank Locator: BANK 0
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 412A89F0
+	Asset Tag: Not Specified
+	Part Number: M471A2K43EB1-CWE
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x002D, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x002B
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: SODIMM
+	Set: None
+	Locator: Controller0-ChannelB
+	Bank Locator: BANK 1
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+

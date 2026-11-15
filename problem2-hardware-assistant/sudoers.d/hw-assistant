@@ -1,0 +1,17 @@
+# /etc/sudoers.d/hw-assistant
+# Scoped, non-interactive privilege escalation configuration for the Linux Hardware Q&A Assistant.
+#
+# SECURITY INVARIANTS:
+# 1. Only dmidecode is permitted with EXACT pinned arguments per line.
+# 2. Bare / unrestricted dmidecode execution is strictly prohibited.
+# 3. Requires 'sudo -n' (non-interactive mode) by caller; fails immediately if misconfigured.
+#
+# Installation:
+#   sudo cp sudoers.d/hw-assistant /etc/sudoers.d/hw-assistant
+#   sudo chmod 0440 /etc/sudoers.d/hw-assistant
+#   sudo visudo -c -f /etc/sudoers.d/hw-assistant
+
+ALL ALL=(ALL) NOPASSWD: /usr/sbin/dmidecode -t memory
+ALL ALL=(ALL) NOPASSWD: /usr/sbin/dmidecode -t bios
+ALL ALL=(ALL) NOPASSWD: /usr/sbin/dmidecode -t baseboard
+

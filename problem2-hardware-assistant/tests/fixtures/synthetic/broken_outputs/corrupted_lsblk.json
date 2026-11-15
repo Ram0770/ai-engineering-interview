@@ -1,0 +1,8 @@
+{
+   "blockdevices": [
+      {
+         "name": "nvme0n1",
+         "size": 512110190592,
+         "type": "disk",
+         "mountpoint": null
+

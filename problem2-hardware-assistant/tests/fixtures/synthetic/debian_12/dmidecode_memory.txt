@@ -1,0 +1,97 @@
+# dmidecode 3.4
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+
+Handle 0x0014, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 128 GB
+	Error Information Handle: 0x0013
+	Number Of Devices: 4
+
+Handle 0x0017, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0014
+	Error Information Handle: 0x0016
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3600 MT/s
+	Manufacturer: Corsair
+	Serial Number: 00000000
+	Asset Tag: Not Specified
+	Part Number: CMK32GX4M2D3600C18
+	Rank: 2
+	Configured Memory Speed: 3600 MT/s
+
+Handle 0x0019, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0014
+	Error Information Handle: 0x0018
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL A
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+
+Handle 0x001B, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0014
+	Error Information Handle: 0x001A
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3600 MT/s
+	Manufacturer: Corsair
+	Serial Number: 00000000
+	Asset Tag: Not Specified
+	Part Number: CMK32GX4M2D3600C18
+	Rank: 2
+	Configured Memory Speed: 3600 MT/s
+
+Handle 0x001D, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0014
+	Error Information Handle: 0x001C
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL B
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+

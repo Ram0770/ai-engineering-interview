@@ -1,0 +1,402 @@
+[
+  {
+    "case_id": "case-01",
+    "domain": "food_delivery_and_fintech",
+    "post": {
+      "author_company": "Swiggy",
+      "title": "IPL 2026 Mega Food Festival - Discount Promotions & Co-marketing",
+      "content": "Looking for digital payment partners, banking card discounts, and rewards wallet tie-ups for our upcoming 6-week cricket food festival across 500+ Indian cities. High volume merchant discounts and cashbacks required."
+    },
+    "candidate": {
+      "company_name": "PhonePe",
+      "tags": ["fintech", "payments", "upi", "checkout", "merchant-solutions", "wallets"],
+      "manifesto": "India's leading digital payments platform. We seek partnerships with e-commerce, food delivery, and quick commerce apps to drive UPI checkout, cashback vouchers, and merchant discount campaigns."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "High synergy between food delivery checkout volume and UPI payment partner promotions."
+  },
+  {
+    "case_id": "case-02",
+    "domain": "food_delivery_and_banking",
+    "post": {
+      "author_company": "Swiggy",
+      "title": "IPL 2026 Mega Food Festival - Discount Promotions & Co-marketing",
+      "content": "Looking for digital payment partners, banking card discounts, and rewards wallet tie-ups for our upcoming 6-week cricket food festival across 500+ Indian cities. High volume merchant discounts and cashbacks required."
+    },
+    "candidate": {
+      "company_name": "HDFC Bank",
+      "tags": ["banking", "credit-cards", "dining", "co-branded-cards", "merchant-banking"],
+      "manifesto": "Premier commercial bank. We sponsor dining and food festival offers for HDFC credit card, debit card, and net banking users to increase card swipes and customer spend."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct alignment with bank credit card dining discount partnerships."
+  },
+  {
+    "case_id": "case-03",
+    "domain": "food_delivery_and_automotive",
+    "post": {
+      "author_company": "Swiggy",
+      "title": "IPL 2026 Mega Food Festival - Discount Promotions & Co-marketing",
+      "content": "Looking for digital payment partners, banking card discounts, and rewards wallet tie-ups for our upcoming 6-week cricket food festival across 500+ Indian cities. High volume merchant discounts and cashbacks required."
+    },
+    "candidate": {
+      "company_name": "Bajaj Auto",
+      "tags": ["automotive", "two-wheelers", "motorcycles", "electric-scooters", "manufacturing"],
+      "manifesto": "Global manufacturer of motorcycles, commercial three-wheelers, and electric vehicles. We seek suppliers for automotive spare parts, lithium-ion battery cells, and dealership software."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Automotive vehicle manufacturing has no relevance to food festival dining discounts."
+  },
+  {
+    "case_id": "case-04",
+    "domain": "travel_and_rideshare",
+    "post": {
+      "author_company": "Uber India",
+      "title": "Airport Transit Integration & Shared Mobility Pass",
+      "content": "Launching premium airport terminal priority pick-up and multi-city airport transfer packages. Seeking airlines, flight booking portals, and travel aggregators for joint ticketing bundles."
+    },
+    "candidate": {
+      "company_name": "MakeMyTrip",
+      "tags": ["travel", "flights", "hotels", "ticketing", "tourism", "airport-cabs"],
+      "manifesto": "India's online travel agency leader. We bundle flight bookings with airport taxi transfers and hotel stays to deliver end-to-end travel convenience."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "High travel mobility synergy: flight bookings combined with airport cab transfers."
+  },
+  {
+    "case_id": "case-05",
+    "domain": "travel_and_pharma",
+    "post": {
+      "author_company": "Uber India",
+      "title": "Airport Transit Integration & Shared Mobility Pass",
+      "content": "Launching premium airport terminal priority pick-up and multi-city airport transfer packages. Seeking airlines, flight booking portals, and travel aggregators for joint ticketing bundles."
+    },
+    "candidate": {
+      "company_name": "Dr. Reddy's Laboratories",
+      "tags": ["pharmaceuticals", "generics", "active-pharmaceutical-ingredients", "clinical-trials"],
+      "manifesto": "Global pharmaceutical developer and manufacturer of generic medicines, oncology therapeutics, and bulk active ingredients."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Pharma manufacturing has no relevance to airport rideshare ticketing bundles."
+  },
+  {
+    "case_id": "case-06",
+    "domain": "quick_commerce_and_fmcg",
+    "post": {
+      "author_company": "Zepto",
+      "title": "Cold-Chain Dairy & Ice Cream Bulk Procurement for Quick Delivery",
+      "content": "Expanding 10-minute delivery dark stores in Bengaluru and Mumbai. Sourcing fresh pasteurized milk, butter, artisanal cheese, and frozen desserts with guaranteed morning slot delivery."
+    },
+    "candidate": {
+      "company_name": "Amul (GCMMF)",
+      "tags": ["dairy", "fmcg", "milk", "ice-cream", "cheese", "cold-chain"],
+      "manifesto": "India's largest food product marketing organization. We distribute milk, dairy products, butter, cheese, and ice cream through retail and modern quick commerce channels."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct supplier-distributor match for fresh dairy cold-chain procurement."
+  },
+  {
+    "case_id": "case-07",
+    "domain": "quick_commerce_and_real_estate",
+    "post": {
+      "author_company": "Zepto",
+      "title": "Cold-Chain Dairy & Ice Cream Bulk Procurement for Quick Delivery",
+      "content": "Expanding 10-minute delivery dark stores in Bengaluru and Mumbai. Sourcing fresh pasteurized milk, butter, artisanal cheese, and frozen desserts with guaranteed morning slot delivery."
+    },
+    "candidate": {
+      "company_name": "DLF Commercial",
+      "tags": ["real-estate", "commercial-leasing", "shopping-malls", "office-parks"],
+      "manifesto": "Premier commercial real estate developer managing grade-A corporate office towers, luxury residential gated communities, and metropolitan retail malls."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Luxury real estate leasing is not a dairy product supplier."
+  },
+  {
+    "case_id": "case-08",
+    "domain": "cloud_computing",
+    "post": {
+      "author_company": "Infosys Cloud",
+      "title": "Enterprise Cloud Migration & AI Model Modernization RFP",
+      "content": "Inviting cloud infrastructure providers and hyperscalers for a multi-million-dollar banking core modernization project on hybrid cloud with GPU cluster provisioning for LLM inference."
+    },
+    "candidate": {
+      "company_name": "Amazon Web Services",
+      "tags": ["cloud", "infrastructure", "gpu-instances", "enterprise-software", "hyperscaler"],
+      "manifesto": "Leading cloud platform providing elastic compute, GPU clusters, hybrid enterprise migrations, and secure sovereign cloud environments for BFSI customers."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Exact match for enterprise cloud modernization and GPU cluster infrastructure."
+  },
+  {
+    "case_id": "case-09",
+    "domain": "cloud_and_fast_food",
+    "post": {
+      "author_company": "Infosys Cloud",
+      "title": "Enterprise Cloud Migration & AI Model Modernization RFP",
+      "content": "Inviting cloud infrastructure providers and hyperscalers for a multi-million-dollar banking core modernization project on hybrid cloud with GPU cluster provisioning for LLM inference."
+    },
+    "candidate": {
+      "company_name": "Domino's Pizza (Jubilant)",
+      "tags": ["fast-food", "pizza", "restaurants", "home-delivery", "food-retail"],
+      "manifesto": "Fast food restaurant franchise operating thousands of pizza outlets across South Asia, focusing on fresh baked dough and fast delivery."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Fast food restaurant chain has no role in enterprise hybrid cloud infrastructure migrations."
+  },
+  {
+    "case_id": "case-10",
+    "domain": "ecommerce_and_fintech",
+    "post": {
+      "author_company": "Flipkart",
+      "title": "Big Billion Days 2026 - Instant Bank Discounts & No-Cost EMI",
+      "content": "Partnering with financial institutions for co-branded credit card promotions, zero percent interest EMI schemes, and checkout incentives across electronics and smartphones."
+    },
+    "candidate": {
+      "company_name": "Axis Bank",
+      "tags": ["banking", "credit-cards", "emi-financing", "fintech", "consumer-lending"],
+      "manifesto": "Major private bank offering co-branded e-commerce credit cards, instant merchant consumer loans, and pre-approved checkout EMI for retail shoppers."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct alignment between festival e-commerce sale and bank card EMI partnerships."
+  },
+  {
+    "case_id": "case-11",
+    "domain": "ecommerce_and_agriculture",
+    "post": {
+      "author_company": "Flipkart",
+      "title": "Big Billion Days 2026 - Instant Bank Discounts & No-Cost EMI",
+      "content": "Partnering with financial institutions for co-branded credit card promotions, zero percent interest EMI schemes, and checkout incentives across electronics and smartphones."
+    },
+    "candidate": {
+      "company_name": "Mahindra Farm Equipment",
+      "tags": ["tractors", "agriculture", "farming-machinery", "harvesters"],
+      "manifesto": "World's largest tractor manufacturer by volume, developing agricultural mechanization, smart soil sensors, and farm implements."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Agricultural tractor manufacturing has no relation to consumer credit card EMI offers."
+  },
+  {
+    "case_id": "case-12",
+    "domain": "cosmetics_and_beauty",
+    "post": {
+      "author_company": "Nykaa",
+      "title": "Grand Beauty Festival 2026 - Luxury Skincare Brand Co-Branding",
+      "content": "Curating premium international skincare and cosmetics brands for omnichannel retail spotlight, in-app live commerce events, and exclusive seasonal product gift boxes."
+    },
+    "candidate": {
+      "company_name": "L'Oréal Paris",
+      "tags": ["beauty", "cosmetics", "skincare", "luxury-retail", "haircare"],
+      "manifesto": "Global leader in beauty and personal care, offering dermatologist-tested skincare formulations, haircare, and premium luxury cosmetics."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Perfect match between beauty retail platform and luxury skincare manufacturer."
+  },
+  {
+    "case_id": "case-13",
+    "domain": "beauty_and_heavy_vehicles",
+    "post": {
+      "author_company": "Nykaa",
+      "title": "Grand Beauty Festival 2026 - Luxury Skincare Brand Co-Branding",
+      "content": "Curating premium international skincare and cosmetics brands for omnichannel retail spotlight, in-app live commerce events, and exclusive seasonal product gift boxes."
+    },
+    "candidate": {
+      "company_name": "Ashok Leyland",
+      "tags": ["commercial-vehicles", "trucks", "heavy-transport", "diesel-engines"],
+      "manifesto": "Leading manufacturer of commercial cargo trucks, multi-axle trailers, and public passenger buses."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Heavy commercial truck manufacturing has zero relevance to cosmetics retail."
+  },
+  {
+    "case_id": "case-14",
+    "domain": "entertainment_and_audio",
+    "post": {
+      "author_company": "BookMyShow",
+      "title": "International Stadium Music Concert Series & Artist Fan Bundles",
+      "content": "Organizing national concert tours for Grammy-winning artists in Mumbai and Delhi. Seeking audio streaming services, music playlist partners, and digital audio platforms for fan merchandise and presales."
+    },
+    "candidate": {
+      "company_name": "Spotify India",
+      "tags": ["music-streaming", "podcasts", "audio", "fan-experiences", "concert-presales"],
+      "manifesto": "Global audio streaming giant connecting artists and fans. We run concert discovery, exclusive ticket presales for top listeners, and artist playlist campaigns."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Music streaming platform collaborating with live concert ticketing on artist presales."
+  },
+  {
+    "case_id": "case-15",
+    "domain": "entertainment_and_mining",
+    "post": {
+      "author_company": "BookMyShow",
+      "title": "International Stadium Music Concert Series & Artist Fan Bundles",
+      "content": "Organizing national concert tours for Grammy-winning artists in Mumbai and Delhi. Seeking audio streaming services, music playlist partners, and digital audio platforms for fan merchandise and presales."
+    },
+    "candidate": {
+      "company_name": "Coal India",
+      "tags": ["mining", "energy", "coal-extraction", "thermal-power", "commodities"],
+      "manifesto": "State-controlled mining corporation supplying fossil fuel raw materials to thermal electricity generating stations and steel mills."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Coal mining has no synergy with music concert promotions."
+  },
+  {
+    "case_id": "case-16",
+    "domain": "healthcare_and_pharma",
+    "post": {
+      "author_company": "Apollo 24|7",
+      "title": "Chronic Disease Prescription Supply & Specialized Oncology Distribution",
+      "content": "Expanding nationwide doorstep medicine delivery for diabetes, cardiovascular, and oncology patients. Seeking direct pharmaceutical manufacturing contracts for temperature-controlled specialty biologics."
+    },
+    "candidate": {
+      "company_name": "Sun Pharma",
+      "tags": ["pharmaceuticals", "specialty-medicine", "oncology", "generics", "drug-manufacturing"],
+      "manifesto": "Leading specialty pharmaceutical corporation manufacturing chronic disease therapies, oncology drugs, and prescription medications with international quality compliance."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct supplier relationship between pharmacy delivery platform and oncology drug manufacturer."
+  },
+  {
+    "case_id": "case-17",
+    "domain": "healthcare_and_automotive",
+    "post": {
+      "author_company": "Apollo 24|7",
+      "title": "Chronic Disease Prescription Supply & Specialized Oncology Distribution",
+      "content": "Expanding nationwide doorstep medicine delivery for diabetes, cardiovascular, and oncology patients. Seeking direct pharmaceutical manufacturing contracts for temperature-controlled specialty biologics."
+    },
+    "candidate": {
+      "company_name": "Maruti Suzuki",
+      "tags": ["passenger-cars", "automobiles", "dealerships", "hybrid-cars"],
+      "manifesto": "India's largest passenger car automaker, delivering hatchback, sedan, and SUV personal mobility solutions."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Passenger car manufacturing has no role in pharmaceutical prescription distribution."
+  },
+  {
+    "case_id": "case-18",
+    "domain": "health_insurance_and_hospitals",
+    "post": {
+      "author_company": "Star Health Insurance",
+      "title": "Cashless Hospital Network Expansion & Daycare Procedure Standardization",
+      "content": "Enrolling accredited multi-specialty hospitals and surgical daycare clinics into our cashless health insurance claims network. Streamlined API integration for pre-authorization approvals."
+    },
+    "candidate": {
+      "company_name": "Max Healthcare",
+      "tags": ["hospitals", "healthcare", "cashless-claims", "surgeries", "medical-centers"],
+      "manifesto": "Premier chain of tertiary care hospitals providing advanced surgical facilities, cardiac sciences, and integrated health insurance cashless claim processing."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Healthcare provider joining health insurer's cashless pre-authorization network."
+  },
+  {
+    "case_id": "case-19",
+    "domain": "health_insurance_and_aviation",
+    "post": {
+      "author_company": "Star Health Insurance",
+      "title": "Cashless Hospital Network Expansion & Daycare Procedure Standardization",
+      "content": "Enrolling accredited multi-specialty hospitals and surgical daycare clinics into our cashless health insurance claims network. Streamlined API integration for pre-authorization approvals."
+    },
+    "candidate": {
+      "company_name": "IndiGo Airlines",
+      "tags": ["aviation", "airlines", "flight-operations", "passenger-transport"],
+      "manifesto": "Low-cost airline operating passenger flights across domestic and international routes, focusing on on-time performance."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Airline flight carrier has no relevance to cashless hospital healthcare claims."
+  },
+  {
+    "case_id": "case-20",
+    "domain": "fintech_and_credit",
+    "post": {
+      "author_company": "CRED",
+      "title": "Credit Card Bill Pay Rewards & Luxury Merchant Privileges",
+      "content": "Curating high-value merchant benefits, reward redemptions, and exclusive cashback multipliers for members paying premium credit card bills on the CRED app."
+    },
+    "candidate": {
+      "company_name": "SBI Card",
+      "tags": ["credit-cards", "banking", "bill-payment", "rewards", "consumer-finance"],
+      "manifesto": "Second largest credit card issuer in India. We partner with bill payment apps and fintech aggregators to streamline timely card bill settlements and reward cardholders."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct alignment: credit card issuer partnering on bill pay rewards and settlements."
+  },
+  {
+    "case_id": "case-21",
+    "domain": "fintech_and_steel",
+    "post": {
+      "author_company": "CRED",
+      "title": "Credit Card Bill Pay Rewards & Luxury Merchant Privileges",
+      "content": "Curating high-value merchant benefits, reward redemptions, and exclusive cashback multipliers for members paying premium credit card bills on the CRED app."
+    },
+    "candidate": {
+      "company_name": "Jindal Steel & Power",
+      "tags": ["steel", "metallurgy", "heavy-industry", "rail-tracks", "construction-beams"],
+      "manifesto": "Industrial conglomerate manufacturing structural steel, heavy plates, and railway track infrastructure for construction projects."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Heavy industrial steel production has no relevance to credit card consumer rewards."
+  },
+  {
+    "case_id": "case-22",
+    "domain": "home_services_and_decor",
+    "post": {
+      "author_company": "Urban Company",
+      "title": "Home Renovation & Wall Painting Services Collaboration",
+      "content": "Launching certified residential home painting, wall priming, and interior waterproofing services across top 20 metro areas. Sourcing paint manufacturers and eco-friendly emulsions."
+    },
+    "candidate": {
+      "company_name": "Asian Paints",
+      "tags": ["paints", "home-decor", "waterproofing", "interior-design", "coatings"],
+      "manifesto": "India's largest paint company, manufacturing decorative architectural coatings, wall primers, designer textures, and waterproofing chemicals."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Direct supplier synergy: home service platform sourcing paint and coatings."
+  },
+  {
+    "case_id": "case-23",
+    "domain": "home_services_and_oil",
+    "post": {
+      "author_company": "Urban Company",
+      "title": "Home Renovation & Wall Painting Services Collaboration",
+      "content": "Launching certified residential home painting, wall priming, and interior waterproofing services across top 20 metro areas. Sourcing paint manufacturers and eco-friendly emulsions."
+    },
+    "candidate": {
+      "company_name": "Reliance Petroleum",
+      "tags": ["oil", "refinery", "petroleum", "diesel", "crude-oil"],
+      "manifesto": "Energy conglomerate operating petroleum crude oil distillation refineries, petrochemical crackers, and wholesale fuel logistics."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Petroleum crude refining has no role in residential wall painting services."
+  },
+  {
+    "case_id": "case-24",
+    "domain": "hospitality_and_travel",
+    "post": {
+      "author_company": "Airbnb India",
+      "title": "Homestay & Vacation Villa Long-Term Travel Experiences",
+      "content": "Partnering with travel ticketing and holiday booking platforms to offer bespoke heritage villa stays and remote workstation homestays for domestic leisure travelers."
+    },
+    "candidate": {
+      "company_name": "Cleartrip",
+      "tags": ["travel", "holiday-packages", "vacations", "accommodations", "flight-booking"],
+      "manifesto": "Online travel and vacation package portal offering combined flight bookings, curated holiday experiences, and unique homestay accommodations."
+    },
+    "expected_decision": "NOTIFIED",
+    "commercial_rationale": "Travel package platform integrating homestays and vacation villa bookings."
+  },
+  {
+    "case_id": "case-25",
+    "domain": "hospitality_and_cement",
+    "post": {
+      "author_company": "Airbnb India",
+      "title": "Homestay & Vacation Villa Long-Term Travel Experiences",
+      "content": "Partnering with travel ticketing and holiday booking platforms to offer bespoke heritage villa stays and remote workstation homestays for domestic leisure travelers."
+    },
+    "candidate": {
+      "company_name": "UltraTech Cement",
+      "tags": ["cement", "building-materials", "concrete", "civil-construction"],
+      "manifesto": "Largest manufacturer of grey cement, ready-mix concrete, and white cement for infrastructure and heavy building construction."
+    },
+    "expected_decision": "DROPPED",
+    "commercial_rationale": "Bulk cement manufacturing has no relevance to vacation villa bookings."
+  }
+]

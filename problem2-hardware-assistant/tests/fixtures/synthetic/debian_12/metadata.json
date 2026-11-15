@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Debian GNU/Linux 12 (bookworm)",
+  "hardware_type": "AMD Ryzen 7 5800X Desktop with 2 of 4 RAM slots populated and AMD Radeon RX 6700 XT",
+  "created_for": "Deterministic testing of AMD processor and multi-slot desktop RAM topology"
+}
+

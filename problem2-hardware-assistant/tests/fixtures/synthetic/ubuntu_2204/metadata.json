@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Ubuntu 22.04 LTS",
+  "hardware_type": "Intel Core i7-12700H Laptop with dual storage (NVMe + SATA) and NVIDIA RTX 3060",
+  "created_for": "Deterministic testing of canonical RAM upgrade and storage parsing"
+}
+

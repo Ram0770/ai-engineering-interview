@@ -1,0 +1,54 @@
+{
+   "blockdevices": [
+      {
+         "name": "nvme0n1",
+         "size": 512110190592,
+         "type": "disk",
+         "mountpoint": null,
+         "model": "Samsung SSD 980 500GB",
+         "rota": false,
+         "tran": "nvme",
+         "children": [
+            {
+               "name": "nvme0n1p1",
+               "size": 536870912,
+               "type": "part",
+               "mountpoint": "/boot/efi",
+               "model": null,
+               "rota": false,
+               "tran": null
+            },
+            {
+               "name": "nvme0n1p2",
+               "size": 511573319680,
+               "type": "part",
+               "mountpoint": "/",
+               "model": null,
+               "rota": false,
+               "tran": null
+            }
+         ]
+      },
+      {
+         "name": "sda",
+         "size": 1000204886016,
+         "type": "disk",
+         "mountpoint": null,
+         "model": "ST1000LM048-2E7172",
+         "rota": true,
+         "tran": "sata",
+         "children": [
+            {
+               "name": "sda1",
+               "size": 1000203837440,
+               "type": "part",
+               "mountpoint": "/data",
+               "model": null,
+               "rota": true,
+               "tran": null
+            }
+         ]
+      }
+   ]
+}
+

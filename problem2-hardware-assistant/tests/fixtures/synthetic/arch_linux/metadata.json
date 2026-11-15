@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Arch Linux (rolling)",
+  "hardware_type": "Custom Workstation: AMD Ryzen 9 7950X, 64 GB DDR5 (4x16GB), Dual NVMe RAID, NVIDIA RTX 4090",
+  "created_for": "Deterministic testing of high-end multi-NVMe and DDR5 hardware configurations"
+}
+

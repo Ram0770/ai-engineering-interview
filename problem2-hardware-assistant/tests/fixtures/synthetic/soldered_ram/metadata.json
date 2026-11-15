@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Fedora Linux 40 (Workstation Edition)",
+  "hardware_type": "Lenovo ThinkPad X1 Carbon Gen 11 with 32 GB soldered LPDDR5 RAM",
+  "created_for": "Deterministic testing of soldered RAM detection and no-expansion caveats"
+}
+

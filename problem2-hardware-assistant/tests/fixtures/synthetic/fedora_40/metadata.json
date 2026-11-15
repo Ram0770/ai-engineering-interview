@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Fedora Linux 40 (Workstation Edition)",
+  "hardware_type": "Intel Core i5-1340P Framework Laptop with 16 GB DDR5 and Intel Iris Xe",
+  "created_for": "Deterministic testing of Fedora distribution and Framework modular laptop specs"
+}
+

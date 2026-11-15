@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Edge cases & Malformed outputs",
+  "hardware_type": "Truncated, malformed, and permission-denied command outputs",
+  "created_for": "Deterministic testing of parser resilience and graceful error recovery"
+}
+

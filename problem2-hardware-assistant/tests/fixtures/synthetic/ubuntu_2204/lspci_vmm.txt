@@ -1,0 +1,16 @@
+Slot:	00:02.0
+Class:	VGA compatible controller
+Vendor:	Intel Corporation
+Device:	Alder Lake-P Integrated Graphics Controller
+SVendor:	Lenovo
+SDevice:	Alder Lake-P Integrated Graphics Controller
+Rev:	0c
+
+Slot:	01:00.0
+Class:	3D controller
+Vendor:	NVIDIA Corporation
+Device:	GA106M [GeForce RTX 3060 Mobile / Max-Q]
+SVendor:	Lenovo
+SDevice:	GA106M [GeForce RTX 3060 Mobile / Max-Q]
+Rev:	a1
+

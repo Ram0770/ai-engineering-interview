@@ -1,0 +1,7 @@
+{
+  "type": "synthetic",
+  "distribution": "Ubuntu 24.04 LTS (AWS EC2 / KVM Virtual Machine)",
+  "hardware_type": "KVM / QEMU virtual instance with 1 virtual DIMM and synthetic BIOS",
+  "created_for": "Deterministic testing of virtual machine caveat reporting"
+}
+
